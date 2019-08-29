@@ -1,10 +1,5 @@
 #coding:utf-8
 
-"""
-    @author  : linkin
-    @email   : yooleak@outlook.com
-    @date    : 2018-11-03
-"""
 import time
 import datetime
 import logging

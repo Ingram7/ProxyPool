@@ -1,9 +1,5 @@
 #coding:utf-8
-"""
-    @author  : linkin
-    @email   : yooleak@outlook.com
-    @date    : 2018-10-04
-"""
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -22,6 +18,7 @@ from bs4 import BeautifulSoup
 
 
 def crawlProxy01():
+
     url = 'https://github.com/dxxzst/free-proxy-list'
     headers = {
         'User-Agent': "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50"}

@@ -1,10 +1,5 @@
 # coding:utf-8
 
-"""
-    @author  : linkin
-    @email   : yooleak@outlook.com
-    @date    : 2018-10-05
-"""
 
 #代理连接数据库
 _DB_SETTINGS = {

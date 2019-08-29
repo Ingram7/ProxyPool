@@ -1,10 +1,6 @@
 # coding:utf-8
 
-"""
-    @author  : linkin
-    @email   : yooleak@outlook.com
-    @date    : 2018-10-05
-"""
+
 import pymongo
 import logging
 from inspect            import isfunction

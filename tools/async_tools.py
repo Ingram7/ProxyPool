@@ -1,9 +1,5 @@
 #coding:utf-8
-"""
-    @author  : linkin
-    @email   : yooleak@outlook.com
-    @date    : 2018-11-07
-"""
+
 import asyncio
 import datetime
 

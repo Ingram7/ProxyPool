@@ -1,10 +1,6 @@
 #coding:utf-8
 
-"""
-    @author  : linkin
-    @email   : yooleak@outlook.com
-    @date    : 2018-10-04
-"""
+
 import random
 
 #代理ip的API接口,此处用FooProxy的API接口

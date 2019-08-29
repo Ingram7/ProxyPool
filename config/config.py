@@ -1,10 +1,6 @@
 #coding:utf-8
 
-"""
-    @author  : linkin
-    @email   : yooleak@outlook.com
-    @date    : 2018-10-04
-"""
+
 
 #采集器采集数据时间间隔,单位：秒
 COLLECT_TIME_GAP    = 3600*1
