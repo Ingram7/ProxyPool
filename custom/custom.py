@@ -38,7 +38,6 @@ def crawlProxy01():
                 res.append("{}:{}".format(a[1], a[2]))
         print('======crawlProxy01======')
         print(res)
-        print('======crawlProxy01======')
         return res
 
 
@@ -62,7 +61,6 @@ def crawlProxy02():
                 res.append(i)
         print('======crawlProxy02======')
         print(res)
-        print('======crawlProxy02======')
         return res
     except:
         pass
@@ -84,7 +82,6 @@ def crawlProxy03():
                 res.append(':'.join(proxy))
         print('======crawlProxy03======')
         print(res)
-        print('======crawlProxy03======')
         return res
 
     except:
@@ -112,7 +109,6 @@ def crawlProxy04():
                 res.append(":".join(proxy))
         print('======crawlProxy04======')
         print(res)
-        print('======crawlProxy04======')
         return res
 
     except:
@@ -136,7 +132,6 @@ def crawlProxy05():
                 res.append(i)
         print('======crawlProxy05======')
         print(res)
-        print('======crawlProxy05======')
         return res
 
     except:

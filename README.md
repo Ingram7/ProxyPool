@@ -44,42 +44,41 @@ MODE = {
  ```python
 targets = [
     'https://www.bilibili.com/',
-    'https://www.csdn.net/',
 ]
 ```
 
-* 在本机运行FooProxy，过了5分钟后，MongoDB数据库中出现了两个collection: bilibili_com,csdn_net
+* 在本机运行FooProxy，过了5分钟后，MongoDB数据库中出现了collection: bilibili_com
 * 自己的爬虫中使用API: ‘http://127.0.0.1:5000/proxy/target/bilibili/com’，
 获取到了所有满足条件的代理IP,格式如下:
 ```json
 [
     {
-        "ip":"180.183.135.46",
-        "port":"8080",
-        "anony_type":"透明",
-        "address":"英国 ",
-        "createdTime":"2018-11-07 18:30:22",
-        "score":75.27,
-        "test_count":10,
-        "url":"https://www.csdn.net/",
-        "total":752.7,
-        "resp_time":"1.829105s",
-        "valid_time":"2018-11-07 19:52:29"
+        "ip": "60.205.159.195",
+        "port": "3128",
+        "anony_type": "透明",
+        "address": "unknown",
+        "createdTime": "2019-08-30 18:22:07",
+        "score": 92.78,
+        "test_count": 45,
+        "url": "https://www.bilibili.com/",
+        "total": 4175.1,
+        "resp_time": "5.153974s",
+        "valid_time": "2019-08-30 21:18:54"
     },
-    {
-        "ip":"46.21.74.130",
-        "port":"8080",
-        "anony_type":"高匿",
-        "address":"俄罗斯 ",
-        "createdTime":"2018-11-07 18:25:36",
-        "score":75.05,
-        "test_count":11,
-        "url":"https://www.csdn.net/",
-        "total":825.55,
-        "resp_time":"7.812447s",
-        "valid_time":"2018-11-07 19:52:35"
+    {  "ip": "115.28.209.249",
+       "port": "3128",
+       "anony_type": "透明",
+       "address": "unknown",
+       "createdTime": "2019-08-30 20:43:06",
+       "score": 78.52,
+       "test_count": 10,
+       "url": "https://www.bilibili.com/",
+       "total": 785.2,
+       "resp_time": "0.341122s",
+       "valid_time": "2019-08-30 21:18:49"
     }
 ]
 ```
+
 * 在爬虫中根据自己需求选择了代理IP数据进行后续爬取
  

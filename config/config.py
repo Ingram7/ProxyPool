@@ -25,12 +25,12 @@ DETECT_AMOUNT       = 1000
 #检测器一次取出多少条高分稳定数据库的代理进行检测
 DETECT_HIGH_AMOUNT  = 1000
 #高分稳定数据库代理数据连续多少次无效则从稳定数据库中剔除
-DELETE_COMBO        = 30
-#代理IP成功率的最低要求,低于此要求均删除,100次周期测试 0.2=20%
-MIN_SUCCESS_RATE    = 0.2
-#有效代理数据库数据转至高分稳定数据库的成功率最低要求 0.8=80%
+DELETE_COMBO        = 20
+#代理IP成功率的最低要求,低于此要求均删除,100次周期测试 0.4=40%
+MIN_SUCCESS_RATE    = 0.4
+#有效代理数据库数据转至高分稳定数据库的成功率最低要求 0.9=90%
 #以及测试总数的最低要求
-STABLE_MIN_RATE     = 0.8500
+STABLE_MIN_RATE     = 0.9000
 STABLE_MIN_COUNT    = 100
 #目标网站IP代理库验证扫描的最大数，即最多验证多少个目标网站(包含数据库中已存在的),超出部分不会验证
 MAX_T_LEN = 20
@@ -41,7 +41,7 @@ AGO = False
 #目标库验证请求的超时时间 单位：秒
 TIMEOUT = 20
 #目标库验证失败重试次数,-1 表示无限次失败重试,0 表示不进行失败重试
-RETRIES = 4
+RETRIES = 3
 #使用代理IP的爬虫目标网站列表,最多 MAX_T_LEN 个
 targets = [
     # 'https://segmentfault.com/',
@@ -50,7 +50,7 @@ targets = [
     # 'http://www.acfun.cn/'
 ]
 #连续超过多少天没有进行验证的目标网站IP代理库则自动删除,单位:天
-TARGET_EXPIRE = 5
+TARGET_EXPIRE = 3
 #运行模式,置 1 表示运行，置 0 表示 不运行
 #全置 0 表示只运行 API server
 MODE = {

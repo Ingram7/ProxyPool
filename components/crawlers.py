@@ -32,7 +32,6 @@ def ip66():
         data = list(set(data))
         print('========66ip========')
         print(data)
-        print('========66ip========')
         return data
 
 def nyloner():
@@ -52,7 +51,6 @@ def nyloner():
         res = [':'.join([i['ip'],i['port']]) for i in data]
         print('=======nyloner=======')
         print(res)
-        print('=======nyloner=======')
         return res
 
 builtin_crawlers = [nyloner, ip66]
